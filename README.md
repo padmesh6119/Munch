@@ -35,12 +35,3 @@ Hashes turn your text into fixed-length strings. MUNCH supports:
 - `SHA1` – Better, but still broken.
 - `SHA224`, `SHA256`, `SHA384`, `SHA512` – Stronger and widely used.
 
-> ⚠️ Hashes are one-way. You can't decode them.
-
----
-
-## 🧠 How the Code Works (In Plain English)
-
-### 1. **Graceful Exit**
-```python
-signal.signal(signal.SIGINT, outro)
