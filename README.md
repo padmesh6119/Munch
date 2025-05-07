@@ -35,3 +35,25 @@ Hashes turn your text into fixed-length strings. MUNCH supports:
 - `SHA1` – Better, but still broken.
 - `SHA224`, `SHA256`, `SHA384`, `SHA512` – Stronger and widely used.
 
+## Requirements
+Before running MUNCH, ensure you have the following installed:
+
+- **Python 3.x:** The program is written in Python, so you need Python 3.x installed.
+- **termcolor library:** This Python library is used to add color to the terminal output.
+
+### How to Install
+
+1. **Install Python 3:**  
+   MUNCH requires Python 3 to run. Download and install it from the [official Python website](https://www.python.org/downloads/) if it's not already installed.
+
+2. **Install Dependencies:**
+   Once Python 3 is installed, you need to install the required libraries.
+   Open your terminal and run the following command to install the dependencies:
+   ```bash
+   pip install termcolor
+
+If all of em are installled , then 
+   python3 munch.py 
+to run and that's it
+
+Have a good day
